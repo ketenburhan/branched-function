@@ -1,11 +1,8 @@
 {
-  "name": "branched-function",
-  "version": "0.1.0",
+  "name": "ruled-block",
+  "version": "0.1.1",
   "description": "Conditional function creating library.",
   "main": "index.js",
-  "directories": {
-    "example": "examples"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,5 +10,8 @@
     "library"
   ],
   "author": "Burhan Keten",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "type-security": "^1.0.0"
+  }
 }
